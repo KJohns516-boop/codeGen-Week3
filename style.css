@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("https://i.imgur.com/tLXuinW.jpg");
+    background-color: lightskyblue
+}
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+
+}
+main {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+aside {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 50%;
+    height: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: violet;
+}
+nav
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-left:5%;
+    padding-right: 10%;
+
+
+}
+.logo {
+    color:whitesmoke;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    margin: 20px 0px 20px;
+    font-weight: bold;
+    background-color: violet;
+    color: whitesmoke;
+    text-decoration: none;
+    border: 4px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+}
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 30px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    margin: 20px 0px 20px;
+    font-weight: bold;
+    background-color: violet;
+    color: whitesmoke;
+    text-decoration: none;
+    border: 4px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+}
+nav ul li a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: violet;
+    transition: .4s;
+
+}
+.btn{
+    background-color: violet;
+    color: whitesmoke;
+    text-decoration: none;
+    border: 4px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+
+}
+.btn:hover {
+    transform: scale(1.1);
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left:8%;
+    transform: translate(-50%);
+}
